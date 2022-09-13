@@ -3,18 +3,25 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
+  padding: 1em;
+}
+
+.react-thumbnail {
+  height: 10vh;
+  padding-top: 2em;
+  padding-bottom: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-logo, .react-thumbnail {
+    animation: App-logo-spin infinite 15s ease-in-out;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #264685;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
