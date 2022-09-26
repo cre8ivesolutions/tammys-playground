@@ -14,6 +14,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "router": "^1.3.7",
+    "sequelize": "^6.23.1",
     "styled": "^1.0.0",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
@@ -48,5 +49,14 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cre8ivesolutions/tammys-playground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cre8ivesolutions/tammys-playground/issues"
+  },
+  "homepage": "https://github.com/cre8ivesolutions/tammys-playground#readme"
 }

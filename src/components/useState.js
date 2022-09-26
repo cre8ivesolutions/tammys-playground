@@ -3,7 +3,7 @@ import React from "react";
 
 // useState allows Inverse Data Flow to allow data to be sent from the child to the parent.
 export default function UseSetState(){
-    const [state, setState] = useState("This is the starting useState'")
+    const [state, setState] = useState("This is the starting 'useState'")
     return(
     <div className="box">
         <hr/>

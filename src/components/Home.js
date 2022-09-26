@@ -29,8 +29,7 @@ export default function Home () {
             </header>
             <Welcome/>
             <br/>
-        
-    </div>
+        </div>
     )
 
 }

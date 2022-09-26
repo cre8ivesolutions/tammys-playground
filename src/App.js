@@ -2,7 +2,7 @@
 import React, { useContext, Suspense } from "react";
 import "./App.css";
 import UseSetState from "./components/useState";
-import ThisContext from "./components/context";
+import ThisContext from "./components/Context";
 import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 // import Home from "./components/Home";
 import Button from "react-bootstrap/Button";
@@ -12,7 +12,7 @@ import styled from "styled-components";
 import Footer from "./components/Footer";
 // import Navigation from "./components/Navigation";
 
-const Welcome = React.lazy(() => import("./components/Welcome"));
+// const Welcome = React.lazy(() => import("./components/Welcome"));
 const Home = React.lazy(() => import("./components/Home"));
 const StyledButton = styled.button`
   display: inline-block;
@@ -24,6 +24,8 @@ const StyledButton = styled.button`
   color: blue;
   border: 0.5em solid mediumblue;
 `;
+
+
 
 // ${props => props.primary ? "css"`
 //   background: white;
@@ -85,6 +87,7 @@ function App() {
     // </ThisContext.provider>
   );
 }
+
 export default App;
 
 // <ThisContext.Provider value={ContextInfo}/>
