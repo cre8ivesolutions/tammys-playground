@@ -8,7 +8,7 @@ export default function Contact () {
             <Fade mountOnEnter>
                 <h2>Set up an interview with me for more information.</h2>
             </Fade>
-            <h3>Check out the projects I have completed here!<a href=""/></h3>
+            <h3>Check out the projects I have completed here!</h3>
             <div>
                  <Alert variant="success">This is a success alert—check it out!</Alert>
             </div>
